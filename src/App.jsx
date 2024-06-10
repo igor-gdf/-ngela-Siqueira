@@ -38,7 +38,7 @@ function App() {
               <button className='btn-1 width'> <BsPhone /> Fale conosco </button>
             </div>
           </div>
-          <img className='container-img' src="Rectangle.png" alt="imagem do seminario da Angêla" />
+          <img className='container-img' src="Rectangle.svg" alt="imagem do seminario da Angêla" />
         </section>
 
         <section>
@@ -58,7 +58,7 @@ function App() {
             </div>
             <button className='btn-2 width'> Garanta sua vaga <img src="button-asset.svg" alt="icon de melancia" /> </button>
           </div>
-          <img className='container-img' src="mockup.png" alt="imagem template de celular" />
+          <img className='container-img' src="mockup.svg" alt="imagem template de celular" />
         </section>
 
         <section></section>
