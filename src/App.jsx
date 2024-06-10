@@ -27,7 +27,7 @@ function App() {
           <div className='org-1'>
             <div className='org-2'>
               <img src="multiicons.svg" alt="multiplos icons sobrepostos" />
-              <p className='h3'>receita para o seu sucesso</p>
+              <p className='bold-bold'>receita para o seu sucesso</p>
             </div>
             <div>
               <h1>Tenha o segredo para<br /> o seu sucesso</h1>
@@ -46,7 +46,7 @@ function App() {
             <div>
               <div className='org-2'>
                 <img src="multiicons.svg" alt="" />
-                <h3>potencialize seu curriculo</h3>
+                <p className='bold-bold'>potencialize seu curriculo</p>
               </div>
               <h2>Maratona do currículo ímã</h2>
               <p className='body-gray'>Apresento a vocês o curso Maratona do Currículo Ímã,<br /> que vai transformar sua abordagem.</p>

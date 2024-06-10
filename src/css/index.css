@@ -23,7 +23,7 @@ body{
 /* root end */
 
 /* typography start */
-a, h1, h2, h3 {
+a, h1, h2, .bold-bold {
   color: var(--black);
   line-height: 125%;
   margin: 0px;
@@ -38,13 +38,14 @@ a {
 h1 {
   font-size: 48px;
   font-weight: 400;
+  font-display: swap;
 }
 
 h2 {
   font-size: 40px;
 }
 
-h3, .h3 {
+.bold-bold {
   font-size: 16px;
   font-weight: 500;
 }
