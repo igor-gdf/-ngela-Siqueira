@@ -3,8 +3,13 @@
   .none{
     display: none;
   }
-  /* header */
+  /* header beginig */
   header{
     padding: 12px 24px;
+  }
+
+  /* landing */
+  .landing{
+    padding: 0px 24px;
   }
   }

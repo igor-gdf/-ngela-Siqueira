@@ -1,20 +1,86 @@
-/* import's */
+/* import's start */
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+/* import's end */
 
-/* universal classes */
+/* universal start */
 body{
   font-family: "Archivo", sans-serif;
+  background: var(--white);
 }
+/* universal end */
 
-/* root */
+/* root start */
 :root {
   --white: #fff;
   --shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   --blue1: #1D63FF;
+  --black: #000;
+  --gray: #707070;
+}
+/* root end */
+
+/* typography start */
+a, h1, h2, h3 {
+  color: var(--black);
+  line-height: 125%;
 }
 
-/*reapeating classes*/
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.body-blue, .body-gray {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.body-regular, .body-medium, .body-copyright {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.body-blue {
+  color: var(--blue1);
+}
+
+.body-gray {
+  color: var(--gray);
+}
+
+.body-regular, .body-medium, .body-copyright {
+  color: var(--black);
+}
+
+.body-medium {
+  font-size: 18px;
+}
+
+.body-copyright {
+  font-size: 14px;
+  line-height: 150%; /* 21px */
+}
+
+/* typography end */
+
+/*reapeating classes start*/
 button{
   display: flex;
   padding: 12px 32px;
@@ -27,21 +93,50 @@ button{
   border: 1px solid var(--blue1);
   background-color: transparent;
   color: var(--blue1);
+  svg{
+    width: 16px;
+    height: 16px;
+    color: var(--blue1);
+  }
 }
 .btn-2{
   background-color: var(--blue1);
   color: var(--white);
   border: var(--blue1);
+  svg{
+    width: 24px;
+    height: 24px;
+    color: var(--white);
+  }
 }
+.org-1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
 
-/* header */
+}
+.org-2{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.org-3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+/*reapeating clesses end*/
+
+/* header start */
 header{
   display: flex;
   padding: 12px 124px;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
-  background: var(--white);
   box-shadow: var(--shadow);
 }
 
@@ -51,10 +146,26 @@ header{
   gap: 24px;
 }
 
-a{
-  text-decoration: none;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 125%;
+
+/* header end */
+
+/* landing start */
+.landing{
+  display: flex;
+  padding: 0px 124px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
 }
+section{
+  display: flex;
+  padding: 68px 0px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 38px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+/* landing end */
