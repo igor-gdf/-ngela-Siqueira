@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+  /*reapeating classes*/
+  .none{
+    display: none;
+  }
+  /* header */
+  header{
+    padding: 12px 24px;
+  }
+  }
