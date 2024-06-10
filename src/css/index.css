@@ -114,7 +114,6 @@ button{
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-
 }
 .org-2{
   display: flex;

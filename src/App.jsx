@@ -33,9 +33,9 @@ function App() {
               <h1>Tenha o segredo para<br/> o seu sucesso</h1>
               <p className='body-gray'>Apresento a vocês o curso Maratona do Currículo Ímã,<br/> que vai transformar sua abordagem.</p>
             </div>
-            <div className='org-2'>
-              <button className='btn-2'> Saber mais </button>
-              <button className='btn-1'> <BsPhone /> Fale conosco </button>
+            <div className='org-2 column width'>
+              <button className='btn-2 width'> Saber mais </button>
+              <button className='btn-1 width'> <BsPhone /> Fale conosco </button>
             </div>
           </div>
           <img src="Rectangle.png" alt="imagem do seminario da Angêla" />
@@ -45,7 +45,7 @@ function App() {
           <div className='org-1'>
 
           </div>
-          <img src="mockup.png" alt="imagem modelo de celular " />
+          <img src="" alt="" />
         </section>
 
         <section></section>
