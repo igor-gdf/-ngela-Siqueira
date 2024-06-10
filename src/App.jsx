@@ -27,7 +27,7 @@ function App() {
           <div className='org-1'>
             <div className='org-2'>
               <img src="multiicons.svg" alt="multiplos icons sobrepostos" />
-              <h3>receita para o seu sucesso</h3>
+              <p className='h3'>receita para o seu sucesso</p>
             </div>
             <div>
               <h1>Tenha o segredo para<br /> o seu sucesso</h1>

@@ -34,8 +34,6 @@
 
   }
   @media (max-width: 1000px) {
-    section{
-    }
     .container-img{
       max-width: 300px;
       height: auto;
