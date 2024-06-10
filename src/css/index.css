@@ -7,6 +7,7 @@
 body{
   font-family: "Archivo", sans-serif;
   background: var(--white);
+  margin: 0px;
 }
 /* universal end */
 
@@ -17,6 +18,7 @@ body{
   --blue1: #1D63FF;
   --black: #000;
   --gray: #707070;
+  --green: #00870D;
 }
 /* root end */
 
@@ -24,6 +26,7 @@ body{
 a, h1, h2, h3 {
   color: var(--black);
   line-height: 125%;
+  margin: 0px;
 }
 
 a {
@@ -49,12 +52,14 @@ h3 {
   font-size: 20px;
   font-weight: 400;
   line-height: 150%;
+  margin: 0px;
 }
 
 .body-regular, .body-medium, .body-copyright {
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
+  margin: 0px;
 }
 
 .body-blue {
@@ -76,6 +81,15 @@ h3 {
 .body-copyright {
   font-size: 14px;
   line-height: 150%; /* 21px */
+}
+
+.body-regular{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  svg{
+    color: var(--white);
+  }
 }
 
 /* typography end */
@@ -103,10 +117,9 @@ button{
   background-color: var(--blue1);
   color: var(--white);
   border: var(--blue1);
-  svg{
+  img{
     width: 24px;
     height: 24px;
-    color: var(--white);
   }
 }
 .org-1{
@@ -126,6 +139,15 @@ button{
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
+}
+.circle{
+  background-color: var(--green);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*reapeating clesses end*/
 
@@ -164,7 +186,10 @@ section{
   align-content: center;
   row-gap: 38px;
   align-self: stretch;
-  flex-wrap: wrap;
 }
-
+.bullets{
+  display: flex;
+  flex-direction: column; 
+  gap: 12px;
+}
 /* landing end */

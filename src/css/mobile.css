@@ -19,6 +19,7 @@
     padding: 0px 24px;
   }
   section{
+    flex-wrap: wrap;
     img {
       width: 100%;
       height: auto;
@@ -31,4 +32,12 @@
     }
   }
 
+  }
+  @media (max-width: 1000px) {
+    section{
+    }
+    .container-img{
+      max-width: 300px;
+      height: auto;
+    }
   }
