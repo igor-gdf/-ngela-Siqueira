@@ -19,6 +19,7 @@ body{
   --black: #000;
   --gray: #707070;
   --green: #00870D;
+  --border: #CBD6E2;
 }
 /* root end */
 
@@ -38,11 +39,11 @@ a {
 h1 {
   font-size: 48px;
   font-weight: 400;
-  font-display: swap;
 }
 
 h2 {
   font-size: 40px;
+  font-weight: 400;
 }
 
 .bold-bold {
@@ -141,11 +142,39 @@ button{
   gap: 8px;
   align-self: stretch;
 }
-.circle{
+
+.org-4{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+.org-5{
+  display: flex;
+  height: 524px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span{
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-1{
   background-color: var(--green);
   width: 24px;
   height: 24px;
-  border-radius: 50%;
+}
+.circle-2{
+  border: 2px solid var(--border);
+  width: 64px;
+  height: 64px;
+}
+.center{
   display: flex;
   align-items: center;
   justify-content: center;

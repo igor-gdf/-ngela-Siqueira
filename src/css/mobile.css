@@ -31,6 +31,12 @@
       height: 40px;
     }
   }
+  .org-4{
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
 
   }
   @media (max-width: 1000px) {

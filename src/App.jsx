@@ -45,24 +45,68 @@ function App() {
           <div className='org-1'>
             <div>
               <div className='org-2'>
-                <img src="multiicons.svg" alt="" />
+                <img src="multiicons.svg" alt="immagem da palestra" />
                 <p className='bold-bold'>potencialize seu curriculo</p>
               </div>
               <h2>Maratona do currículo ímã</h2>
               <p className='body-gray'>Apresento a vocês o curso Maratona do Currículo Ímã,<br /> que vai transformar sua abordagem.</p>
             </div>
             <div className='bullets'>
-              <p className='body-regular'><span className='circle'><FaCheck /></span>Aumente suas chances de contratação.</p>
-              <p className='body-regular'><span className='circle'><FaCheck /></span>Crie um currículo irresistível para recrutadores.</p>
-              <p className='body-regular'><span className='circle'><FaCheck /></span>Destaque-se no mercado competitivo.</p>
+              <p className='body-regular'><span className='circle-1'><FaCheck /></span>Aumente suas chances de contratação.</p>
+              <p className='body-regular'><span className='circle-1'><FaCheck /></span>Crie um currículo irresistível para recrutadores.</p>
+              <p className='body-regular'><span className='circle-1'><FaCheck /></span>Destaque-se no mercado competitivo.</p>
             </div>
             <button className='btn-2 width'> Garanta sua vaga <img src="button-asset.svg" alt="icon de melancia" /> </button>
           </div>
           <img className='container-img' src="mockup.svg" alt="imagem template de celular" />
         </section>
 
-        <section></section>
-        <section></section>
+        <section>
+          <div className='org-1'>
+            <div className='org-2'>
+              <img src="multiicons.svg" alt="immagem da palestra" />
+              <p className='bold-bold'>nossas vantagens</p>
+            </div>
+            <h2>Por que escolher a <br /> Maratona do currículo imã?</h2>
+            <div className='center'>
+              <img src="mockup-pc.svg" alt="template de notebook" />
+            </div>
+          </div>
+
+          <div className='org-5'>
+            <div className='org-4'>
+              <span className='circle-2 body-blue'>1</span>
+              <p className='.body-medium'>Tenha acesso vitalício ao curso!</p>
+            </div>
+            <div className='org-4'>
+              <span className='circle-2 body-blue'>2</span>
+              <p className='.body-medium'>Transforme sua carreira: desbloqueie novas<br /> oportunidades com nosso curso exclusivo.</p>
+            </div>
+            <div className='org-4'>
+              <span className='circle-2 body-blue'>3</span>
+              <p className='.body-medium'>Expertise acessível: adquira conhecimento de<br /> qualidade com nosso curso.</p>
+            </div>
+            <div className='org-4'>
+              <img src="circle-star.svg" alt="circulo com estrela no meio" />
+              <p className='.body-medium'>Conquiste o currículo perfeito: impressione<br /> recrutadores e garanta entrevistas!</p>
+            </div>
+            <button className='btn-2 width'> Garanta sua vaga <img src="button-asset.svg" alt="icon de melancia" /> </button>
+          </div>
+        </section>
+
+        <section>
+          <div className='org-1'>
+            <div>
+              <div className='org-2'>
+                <img src="multiicons.svg" alt="immagem da palestra" />
+                <p className='bold-bold'>depoimentos</p>
+              </div>
+              <h2>O que os nossos alunos dizem?</h2>
+              <p className='body-gray'>Confira as experiências e histórias de sucesso de nossos <br /> alunos que transformaram suas carreiras com a Maratona do <br />Currículo Imã.</p>
+            </div>
+            <button className='btn-2 width'> Garanta sua vaga <img src="button-asset.svg" alt="icon de melancia" /> </button>
+          </div>
+        </section>
       </div>
       {/* landing end */}
 
