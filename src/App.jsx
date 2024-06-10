@@ -45,7 +45,7 @@ function App() {
           <div className='org-1'>
             <div>
               <div className='org-2'>
-                <img src="multiicons.svg" alt="immagem da palestra" />
+                <img src="paper.svg" alt="immagem da palestra" />
                 <p className='bold-bold'>potencialize seu curriculo</p>
               </div>
               <h2>Maratona do currículo ímã</h2>
@@ -64,7 +64,7 @@ function App() {
         <section>
           <div className='org-1'>
             <div className='org-2'>
-              <img src="multiicons.svg" alt="immagem da palestra" />
+              <img src="star.svg" alt="immagem da palestra" />
               <p className='bold-bold'>nossas vantagens</p>
             </div>
             <h2>Por que escolher a <br /> Maratona do currículo imã?</h2>
@@ -98,7 +98,7 @@ function App() {
           <div className='org-1'>
             <div className='org-6'>
               <div className='org-2'>
-                <img src="multiicons.svg" alt="immagem da palestra" />
+                <img src="chat.svg" alt="immagem da palestra" />
                 <p className='bold-bold'>depoimentos</p>
               </div>
               <h2>O que os nossos alunos dizem?</h2>

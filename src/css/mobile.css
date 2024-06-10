@@ -40,6 +40,9 @@
   footer{
     flex-direction: column;
   }
+  .body-copyright{
+    text-align: center;
+  }
 
   }
   @media (max-width: 1000px) {
