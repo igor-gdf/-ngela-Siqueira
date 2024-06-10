@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsPhone } from "react-icons/bs";
-import { FaCheck } from "react-icons/fa6";
+import { FaCheck, FaSquareXTwitter, FaLinkedin, FaInstagram, FaFacebookF } from "react-icons/fa6";
 
 function App() {
   return (
@@ -96,7 +96,7 @@ function App() {
 
         <section>
           <div className='org-1'>
-            <div>
+            <div className='org-6'>
               <div className='org-2'>
                 <img src="multiicons.svg" alt="immagem da palestra" />
                 <p className='bold-bold'>depoimentos</p>
@@ -106,13 +106,24 @@ function App() {
             </div>
             <button className='btn-2 width'> Garanta sua vaga <img src="button-asset.svg" alt="icon de melancia" /> </button>
           </div>
+
+          <div>
+
+          </div>
         </section>
       </div>
       {/* landing end */}
 
       {/* footer start */}
       <footer>
-
+        <img src="ANGELA-LOGO-1024x1024.svg" alt="logo da pagina" />
+        <div className='org-2 svg'>
+          <FaSquareXTwitter />
+          <FaLinkedin  />
+          <FaInstagram />
+          <FaFacebookF />
+        </div>
+        <p className='body-copyright'>© 2022 SmartBusiness. Todos os direitos reservados</p>
       </footer>
       {/* footer end */}
     </>

@@ -20,6 +20,7 @@ body{
   --gray: #707070;
   --green: #00870D;
   --border: #CBD6E2;
+  --background: #E6EEFF;
 }
 /* root end */
 
@@ -124,10 +125,12 @@ button{
     height: 24px;
   }
 }
-.org-1{
+.org-1,.org-3,.org-6{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.org-1{
   gap: 32px;
 }
 .org-2{
@@ -136,9 +139,6 @@ button{
   gap: 12px;
 }
 .org-3{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 8px;
   align-self: stretch;
 }
@@ -155,6 +155,9 @@ button{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.org-6{
+  gap: 8px;
 }
 
 span{
@@ -178,6 +181,13 @@ span{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.svg{
+  svg{
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+  }
 }
 /*reapeating clesses end*/
 
@@ -223,3 +233,17 @@ section{
   gap: 12px;
 }
 /* landing end */
+
+/* footer start */
+footer{
+  display: flex;
+  padding: 104px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  background: var(--background);
+}
+/* footer end */
