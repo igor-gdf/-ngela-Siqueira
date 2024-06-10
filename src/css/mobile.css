@@ -37,6 +37,9 @@
       height: 64px;
     }
   }
+  footer{
+    flex-direction: column;
+  }
 
   }
   @media (max-width: 1000px) {
