@@ -107,8 +107,10 @@ function App() {
             <button className='btn-2 width'> Garanta sua vaga <img src="button-asset.svg" alt="icon de melancia" /> </button>
           </div>
 
-          <div>
-
+          <div className='cards-container'>
+           <video src="video1.mp4" controls preload="metadata"></video>
+           <video src="video2.mp4" controls preload="metadata"></video>
+           <video src="video3.mp4" controls preload="metadata"></video>
           </div>
         </section>
       </div>
@@ -119,7 +121,7 @@ function App() {
         <img src="ANGELA-LOGO-1024x1024.svg" alt="logo da pagina" />
         <div className='org-2 svg'>
           <FaSquareXTwitter />
-          <FaLinkedin  />
+          <FaLinkedin />
           <FaInstagram />
           <FaFacebookF />
         </div>
