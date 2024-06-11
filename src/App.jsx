@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsPhone } from "react-icons/bs";
-import { FaCheck, FaSquareXTwitter, FaLinkedin, FaInstagram, FaFacebookF } from "react-icons/fa6";
+import { FaCheck, FaSquareXTwitter, FaLinkedin, FaInstagram, FaFacebookF, FaStar } from "react-icons/fa6";
 
 function App() {
   {/* Definindo as URLs dos links */} 
@@ -103,7 +103,7 @@ function App() {
               <p className='.body-medium'>Expertise acessível: adquira conhecimento de qualidade com nosso curso.</p>
             </div>
             <div className='org-4'>
-              <img src="circle-star.svg" alt="circulo com estrela no meio" />
+              <span className='circle-2 background'><FaStar /></span>
               <p className='.body-medium'>Conquiste o currículo perfeito: impressione recrutadores e garanta entrevistas!</p>
             </div>
             <form action={cursoURL} target="_blank">
