@@ -21,6 +21,7 @@ body{
   --green: #00870D;
   --border: #CBD6E2;
   --background: #E6EEFF;
+  --opacite: rgba(29, 99, 255, 0.5);
 }
 /* root end */
 
@@ -40,11 +41,13 @@ a {
 h1 {
   font-size: 48px;
   font-weight: 400;
+  max-width: 468px;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 400;
+  max-width: 502px;
 }
 
 .bold-bold {
@@ -71,6 +74,7 @@ h2 {
 
 .body-gray {
   color: var(--gray);
+  max-width: 545px;
 }
 
 .body-regular, .body-medium, .body-copyright {
@@ -105,7 +109,10 @@ button{
   align-items: center;
   gap: 12px;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
 }
+
 .btn-1{
   border: 1px solid var(--blue1);
   background-color: transparent;
@@ -116,14 +123,42 @@ button{
     color: var(--blue1);
   }
 }
+
+.btn-1:hover{
+  background-color: var(--blue1);
+  border: 1px solid var(--white);
+  color: var(--white);
+  svg{
+    color: var(--white);
+  }
+}
+
+.btn-1:active{
+  background-color: var(--white);
+  border: 1px solid var(--blue1);
+  color: var(--blue1);
+  svg{
+    color: var(--blue1);
+  }
+}
+
 .btn-2{
   background-color: var(--blue1);
   color: var(--white);
-  border: var(--blue1);
+  border: 1px solid var(--blue1);
   img{
     width: 24px;
     height: 24px;
   }
+}
+.btn-2:hover{
+  background-color: var(--opacite);
+  border: 1px solid var(--opacite);
+}
+
+.btn-2:active{
+  background-color: var(--blue1);
+  border: 1px solid var(--blue1);
 }
 .org-1,.org-3,.org-6{
   display: flex;
@@ -148,6 +183,7 @@ button{
   align-items: center;
   gap: 24px;
   width: 100%;
+  max-width: 400px;
 }
 .org-5{
   display: flex;
@@ -158,6 +194,7 @@ button{
 }
 .org-6{
   gap: 8px;
+  max-width: 545px;
 }
 
 span{
@@ -174,7 +211,7 @@ span{
 }
 .circle-2{
   border: 2px solid var(--border);
-  width: 64px;
+  min-width: 64px;
   height: 64px;
 }
 .center{

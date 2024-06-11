@@ -37,6 +37,13 @@
       height: 64px;
     }
   }
+  form{
+    width: 100%;
+    
+  }
+  button{
+    width: 100%;
+  }
   footer{
     flex-direction: column;
   }
