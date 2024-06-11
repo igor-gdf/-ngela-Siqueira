@@ -6,7 +6,7 @@ function App() {
   {/* Definindo as URLs dos links */} 
   const contatoURL = "https://api.whatsapp.com/send?phone=558196756651";
   const cursoURL = "https://pay.kiwify.com.br/iYmnvS3?fbclid=PAAaaqzz9rtTI1lWOJIligFKPG4Yxu-r4hA2VRlOsFeAxihjUqLB1M7RVQlVg";
- 
+
   return (
     <>
       {/* header start */}
@@ -18,7 +18,7 @@ function App() {
             <a href="#Vantagens">Vantagens</a>
             <a href="#Depoimentos">Depoimentos</a>
           </nav>
-          <form action={contatoURL} target="_blank">
+          <form className='none' action={contatoURL} target="_blank">
             <button className='btn-1 none'> Contato </button>
           </form>
           <form action={cursoURL} target="_blank">
